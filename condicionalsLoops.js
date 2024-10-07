@@ -73,9 +73,13 @@ console.log(result)
 //Ejercicio 8: Escribe un programa que al darle la constante 'value' imprima en consola "Es un número" cuando el valor sea de tipo number, "Es un string" cuando el valor sea de tipo string o si no es ni uno ni otro que imprima "No es ni número ni string". Puedes hacerlo con cualquier tipo de condicional.
 
 const value = '1'
+console.log(typeof value)
 
 //Escribe tu código aquí
 
+if (typeof value == "number") {console.log("Es un número")}
+else if (typeof value == "string") {console.log("Es un string")}
+else {console.log("No es ni número ni string")}
 
 //BUCLES
 
