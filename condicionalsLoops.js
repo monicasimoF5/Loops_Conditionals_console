@@ -13,6 +13,12 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 const age = 18
 //Escribe tu código aquí
 
+if (age >= 18) {
+    console.log('Eres mayor de edad')
+}
+else {
+    console.log('No eres aún mayor de edad')
+}
 
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
 
