@@ -64,7 +64,7 @@ switch (pet) {
 
 const weather = "soleado"
 
-const result = //Escribe tu código aquí;
+const result = weather ? "Me vestiré con un vestido" : "Me vestiré con pantalón"  //Escribe tu código aquí;
 
 console.log(result)
 
