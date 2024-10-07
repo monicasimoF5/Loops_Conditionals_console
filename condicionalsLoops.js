@@ -87,6 +87,10 @@ else {console.log("No es ni número ni string")}
 
 //Escribe tu código aquí
 
+for (let i=0; i<=10; i++) {
+    console.log(i)
+}
+
 
 //Ejercicio 10: Con un bucle for in imprime en pantalla todos los nombres, apellidos y su aporte a la sociedad de las programadoras de la historia contenidas en el array llamado 'programmers', Deberás imprimir el índice y la información de cada una de ellas de la siguiente manera: '0: Ada Lovelace, su aporte fue la máquina analítica'. 
 
