@@ -136,6 +136,7 @@ for (let i = 0 ; i < names.length ; i++) {
 
 // Código con un for of
 
+console.log("Ejercicio 11 con for of...")
 for (i of names){
     console.log("Hola, mi nombre es " + i)
 }
@@ -144,11 +145,21 @@ for (i of names){
 
 //Escribe tu código aquí
 
+let cont = 1
+while (cont <= 5) {
+    console.log(cont)
+    cont++
+}
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
 
+let cont2 = 1
+do {
+    console.log(cont2)
+    cont2++
+} while (cont2 <= 5)
 
 // DOM
 
