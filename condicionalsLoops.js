@@ -136,7 +136,9 @@ for (let i = 0 ; i < names.length ; i++) {
 
 // Código con un for of
 
-
+for (i of names){
+    console.log("Hola, mi nombre es " + i)
+}
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
@@ -148,5 +150,24 @@ for (let i = 0 ; i < names.length ; i++) {
 //Escribe tu código aquí
 
 
+// DOM
+
+let newimg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZGcgG9lhmaUw0ngnQTp1KJXtvG8yDTMpDQg&s";
+
+const imgDOM = document.getElementById("imagen");
+const titleDOM = document.getAnimations("titulo");
+
+//imgDOM.src // directamente el atributo
+//imgDOM.getAttribute("src") // apuntando al atributo
+
+
+/*
+function.changeimg {
+    imgDOM.src = newimg
+}
+
+changeimg();
+
+*/
 
 
